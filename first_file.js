@@ -6,3 +6,6 @@
 }
 
 
+function ()=>{
+  console.log('second file')
+}
