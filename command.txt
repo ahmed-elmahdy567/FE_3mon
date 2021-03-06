@@ -1,0 +1,18 @@
+git init -> init empty local repo in working dir
+git add . or name files ->added all changes/new_file/deleted_file/delete code/modified-> staging area
+git commit -> create new snap shoot from you current state
+-m(message) -> add message -> create msg with id to make history for your project
+so git commit -m "" ->  take snap shoot current state and create new id from your msg
+-----------------------
+cases
+1- new file -> un-tracked file any change does not see
+2- add new file
+  - added file include this file to staging area
+  - git rm --cached name_file revert this file to be un-tracked file again
+
+3- exist file changed
+  - add file to update exist state in staging
+  - git restore name of file (current dir == current staging area)
+  - git restore --staged revert last added to staging area
+4- git log -> log history
+5- head -> pointer to last comment in your branch
